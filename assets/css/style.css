@@ -71,14 +71,23 @@ header p {
     margin: 1.5em 0;
     text-align: center;	
 }
+.box h2 {
+	margin: 0 0 1em;
+}
 .box {
     width: 50%;
     margin: 0 auto;
     padding: 3em 2em 2em;
     background-color: #F78E69;
 }
-.box h2 {
-	margin: 0 0 1em;
+#pic-container {
+	width: 75%;
+}
+#pic-container img {
+	width: 21%;
+    margin: 3em 2% 1em;
+    border: 10px solid whitesmoke;
+    display: inline-block;
 }
 footer {	
 	margin: 1em 3em;
