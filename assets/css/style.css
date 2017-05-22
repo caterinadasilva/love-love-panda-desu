@@ -82,6 +82,7 @@ header p {
 }
 #pic-container {
 	width: 75%;
+	margin: 0 auto;
 }
 #pic-container img {
 	width: 21%;
