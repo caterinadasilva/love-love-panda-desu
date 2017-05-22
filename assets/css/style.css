@@ -6,3 +6,80 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #F78E69;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	color: white;
+}
+h1, h2, h3,
+h4, h5, h6 {
+	font-weight: 700;
+}
+h1 {
+	font-size: 3rem;
+}
+h2{
+	font-size: 2rem;
+}
+p {
+    line-height: 140%;
+}
+small {
+	font-size: .7rem;
+}
+header, footer {
+	text-align: right;
+}
+header {	
+	margin: 5em 3em 3em;
+}
+header p {
+    margin: 1.5em 0 0;
+}
+.pic-bg {
+	height: 40em;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    background-color: black;
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+}
+.pic-bg.first{
+	background-image: url(../img/uno.jpg);
+    background-position: center;
+    height: 25em;
+}
+.pic-bg.second{
+	background-image: url(../img/dos.jpg);
+}
+.pic-bg.third{
+	background-image: url(../img/tres.jpg);
+}
+.color-bg {
+	background-color: #ABE188;
+	padding: 3em;
+    width: 100%;
+    overflow: hidden;
+    margin: 1.5em 0;
+    text-align: center;	
+}
+.box {
+    width: 50%;
+    margin: 0 auto;
+    padding: 3em 2em 2em;
+    background-color: #F78E69;
+}
+.box h2 {
+	margin: 0 0 1em;
+}
+footer {	
+	margin: 1em 3em;
+}
